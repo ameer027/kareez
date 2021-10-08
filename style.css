@@ -4,13 +4,6 @@ Licensed under the MIT license - http://opensource.org/licenses/MIT
 
 Copyright (c) 2015 Daniel Eden
 */
-
-.banner-image{
-  display: flex;
-  justify-content: flex-end;
-  float: right;
-}
-
 body{
   color: #000 !important;
 }
@@ -20,6 +13,15 @@ body{
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+.banner-image{
+  display: flex;
+  justify-content: flex-end;
+}
+@media (max-width: 991.98px) {
+  .banner-image {
+    display: flex;
+  justify-content: center; } }
+
 .animated-fast {
   -webkit-animation-duration: .2s;
   animation-duration: .2s;
